@@ -20,7 +20,7 @@ https://smart.agent.net.ai
 
 ## Topics
 
-Set via the **About → ⚙️ → Topics** UI, or run this one-liner with the [GitHub CLI](https://cli.github.com/) from the repo root:
+GitHub caps repos at 20 topics. Set via the **About → ⚙️ → Topics** UI, or run this one-liner with the [GitHub CLI](https://cli.github.com/):
 
 ```bash
 gh repo edit --add-topic business-central \
@@ -29,11 +29,9 @@ gh repo edit --add-topic business-central \
              --add-topic dynamics-365 \
              --add-topic msdyn365bc \
              --add-topic al-language \
-             --add-topic al-extension \
              --add-topic bc-extension \
              --add-topic appsource \
              --add-topic ai \
-             --add-topic artificial-intelligence \
              --add-topic llm \
              --add-topic generative-ai \
              --add-topic agentic-ai \
@@ -42,7 +40,6 @@ gh repo edit --add-topic business-central \
              --add-topic copilot \
              --add-topic business-ai \
              --add-topic erp-ai \
-             --add-topic ai-for-business \
              --add-topic sdk \
              --add-topic sample-code \
              --add-topic sample-apps

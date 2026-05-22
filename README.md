@@ -192,11 +192,11 @@ Found a security issue? See [SECURITY.md](SECURITY.md).
 To maximize discoverability, set these topics on the repo (UI → About → ⚙️, or run the one-liner in [.github/repo-config.md](.github/repo-config.md)):
 
 ```
-business-central  d365-business-central  microsoft-dynamics-365  dynamics-365
-al-language  al-extension  appsource  bc-extension
-ai  artificial-intelligence  llm  generative-ai  agentic-ai  ai-agents
-smart-agents  copilot  business-ai  erp-ai  ai-for-business
-sdk  sample-code  sample-apps  msdyn365bc
+business-central  d365-business-central  microsoft-dynamics-365  dynamics-365  msdyn365bc
+al-language  bc-extension  appsource
+ai  llm  generative-ai  agentic-ai  ai-agents
+smart-agents  copilot  business-ai  erp-ai
+sdk  sample-code  sample-apps
 ```
 
 ## Keywords
