@@ -1,0 +1,39 @@
+{
+  "id": "a1080001-0001-0001-0001-000000000008",
+  "name": "SA Sample - Suggestion Notification",
+  "publisher": "QUALIA Technik GmbH",
+  "version": "1.0.0.0",
+  "brief": "Sample: AI-driven proactive Notification on Sales Order open in Business Central.",
+  "description": "Combines the BC Notification API with an async Smart Agent call. When a Sales Order opens, the agent is asked for a one-line proactive suggestion; if it returns one, it appears as a non-modal Notification bar with an action. Demonstrates how to surface AI nudges in D365 BC without interrupting the user — a proactive-Copilot-style UX powered by Smart Agents.",
+  "privacyStatement": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/blob/main/SECURITY.md",
+  "EULA": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/blob/main/LICENSE",
+  "help": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/tree/main/samples/08-SuggestionNotification",
+  "url": "https://smart.agent.net.ai",
+  "logo": "Smart_Agents_Logo.png",
+  "dependencies": [
+    {
+      "id": "777ec685-ba60-4c5b-a90b-4ee1c67ed777",
+      "name": "Smart Agent SDK",
+      "publisher": "QUALIA Technik GmbH",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 77150,
+      "to": 77169
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

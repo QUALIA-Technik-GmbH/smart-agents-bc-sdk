@@ -1,0 +1,32 @@
+{
+  "id": "777ec685-ba60-4c5b-a90b-4ee1c67ed777",
+  "name": "Smart Agent SDK",
+  "publisher": "QUALIA Technik GmbH",
+  "version": "1.0.0.0",
+  "brief": "AL SDK for building AI agents in Microsoft Dynamics 365 Business Central on top of Smart Agents.",
+  "description": "Open-source AL SDK that lets Business Central (D365 BC) partners build AI features — chat, drafting, classification, anomaly detection, multi-turn conversations, tool-call confirmation, REST endpoints for Power Automate — on top of the Smart Agents platform with zero compile-time dependency. Ships with 14 sample pattern apps. A Copilot-class AI experience for ERP, partner-managed and AppSource-ready. MIT licensed.",
+  "privacyStatement": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/blob/main/SECURITY.md",
+  "EULA": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/blob/main/LICENSE",
+  "help": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk#readme",
+  "url": "https://smart.agent.net.ai",
+  "logo": "Smart_Agents_Logo.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 77000,
+      "to": 77009
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "a1040001-0001-0001-0001-000000000004",
+  "name": "SA Sample - Bulk Processor",
+  "publisher": "QUALIA Technik GmbH",
+  "version": "1.0.0.0",
+  "brief": "Sample: scheduled background AI processing for Business Central via Job Queue.",
+  "description": "A Job Queue–runnable codeunit walks a filtered Customer set, asks a Smart Agent one question per record, and writes each AI answer to a results table for human review. The canonical pattern for batch AI workloads in D365 BC — drafting collection emails overnight, summarising changes, classifying records, and similar bulk-LLM scenarios.",
+  "privacyStatement": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/blob/main/SECURITY.md",
+  "EULA": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/blob/main/LICENSE",
+  "help": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/tree/main/samples/04-BulkProcessor",
+  "url": "https://smart.agent.net.ai",
+  "logo": "Smart_Agents_Logo.png",
+  "dependencies": [
+    {
+      "id": "777ec685-ba60-4c5b-a90b-4ee1c67ed777",
+      "name": "Smart Agent SDK",
+      "publisher": "QUALIA Technik GmbH",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 77070,
+      "to": 77089
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

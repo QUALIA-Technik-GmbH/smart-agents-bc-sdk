@@ -1,0 +1,39 @@
+{
+  "id": "a1120001-0001-0001-0001-000000000012",
+  "name": "SA Sample - Approval Recommender",
+  "publisher": "QUALIA Technik GmbH",
+  "version": "1.0.0.0",
+  "brief": "Sample: AI approval recommendations on Business Central workflow approval requests.",
+  "description": "Subscribes to the standard BC Approval workflow event. When an Approval Request is created, a Smart Agent reads the source document and writes a recommendation — Approve, Reject, or Hold with a reason — to a related table surfaced on the Approval Entries page. Brings AI assistance to D365 BC's standard approval engine without replacing it.",
+  "privacyStatement": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/blob/main/SECURITY.md",
+  "EULA": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/blob/main/LICENSE",
+  "help": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/tree/main/samples/12-ApprovalRecommender",
+  "url": "https://smart.agent.net.ai",
+  "logo": "Smart_Agents_Logo.png",
+  "dependencies": [
+    {
+      "id": "777ec685-ba60-4c5b-a90b-4ee1c67ed777",
+      "name": "Smart Agent SDK",
+      "publisher": "QUALIA Technik GmbH",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 77230,
+      "to": 77249
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "a1030001-0001-0001-0001-000000000003",
+  "name": "SA Sample - Card Chat",
+  "publisher": "QUALIA Technik GmbH",
+  "version": "1.0.0.0",
+  "brief": "Sample: Ask AI action on Item, Vendor, and Sales Quote cards in Business Central.",
+  "description": "Adds an Ask AI action to multiple Business Central card pages that opens the Smart Agent chat scoped to the current record. Single-line integration using OpenChatForRecord — the simplest way to ship an AI agent inside a D365 BC extension.",
+  "privacyStatement": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/blob/main/SECURITY.md",
+  "EULA": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/blob/main/LICENSE",
+  "help": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/tree/main/samples/03-CardChat",
+  "url": "https://smart.agent.net.ai",
+  "logo": "Smart_Agents_Logo.png",
+  "dependencies": [
+    {
+      "id": "777ec685-ba60-4c5b-a90b-4ee1c67ed777",
+      "name": "Smart Agent SDK",
+      "publisher": "QUALIA Technik GmbH",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 77050,
+      "to": 77069
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

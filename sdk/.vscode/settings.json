@@ -1,0 +1,11 @@
+{
+  "al.enableCodeAnalysis": true,
+  "al.codeAnalyzers": [
+    "${CodeCop}",
+    "${UICop}",
+    "${AppSourceCop}",
+    "${PerTenantExtensionCop}"
+  ],
+  "al.packageCachePath": "./.alpackages",
+  "al.assemblyProbingPaths": [ "./.netpackages" ]
+}

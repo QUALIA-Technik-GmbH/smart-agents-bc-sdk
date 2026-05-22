@@ -1,0 +1,39 @@
+{
+  "id": "a1110001-0001-0001-0001-000000000011",
+  "name": "SA Sample - Anomaly Watcher",
+  "publisher": "QUALIA Technik GmbH",
+  "version": "1.0.0.0",
+  "brief": "Sample: AI anomaly detection on Business Central G/L entries via scheduled scan.",
+  "description": "A Job Queue–runnable codeunit periodically asks a Smart Agent to flag anomalies in recent G/L entries. Each finding becomes a row on an Anomaly Findings list for humans to triage. A working blueprint for AI-driven monitoring and audit assistance in D365 BC — proactive ERP intelligence beyond what Microsoft Copilot exposes out of the box.",
+  "privacyStatement": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/blob/main/SECURITY.md",
+  "EULA": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/blob/main/LICENSE",
+  "help": "https://github.com/QUALIA-Technik-GmbH/smart-agents-bc-sdk/tree/main/samples/11-AnomalyWatcher",
+  "url": "https://smart.agent.net.ai",
+  "logo": "Smart_Agents_Logo.png",
+  "dependencies": [
+    {
+      "id": "777ec685-ba60-4c5b-a90b-4ee1c67ed777",
+      "name": "Smart Agent SDK",
+      "publisher": "QUALIA Technik GmbH",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "28.0.0.0",
+  "idRanges": [
+    {
+      "from": 77210,
+      "to": 77229
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
